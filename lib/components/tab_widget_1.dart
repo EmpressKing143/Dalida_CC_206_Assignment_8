@@ -5,10 +5,10 @@ class TabWidget1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(  // Center the entire content
+    return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,  // Center horizontally
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: const [
           Icon(Icons.contacts, size: 48, color: Colors.grey,),
           SizedBox(height: 20),
